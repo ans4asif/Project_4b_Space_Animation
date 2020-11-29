@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.container{
+  width: 100%; height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+img{
+  position: absolute;
+}
+.space{
+  width: 100%; height: 100%;
+  overflow: hidden;
+  
+}
+.space1{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.Ufo{
+  position: absolute;
+  top:30%; left: 10%;
+  overflow: hidden;
+  width: 23%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#rocket{
+  position: absolute;
+  top: 7%;
+  width: 10%;
+  transform: rotate(50deg);
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mercury{
+  width: 23%;
+  left: 75%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rocketb{
+  width: 12%;
+  /* transform: rotate(180deg); */
+  left: 5%;
+  bottom: 1%;
 }
-
-.App-link {
-  color: #61dafb;
+.astronaut{
+  width: 20%;
+  transform: rotate(50deg);
+  top: 45%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.planets{
+  /* transform:translateX(100%); */
+  overflow:hidden;
+  width: 29%;
+  left: 0%;
+  right: 70%;
+  z-index: 2;
 }
