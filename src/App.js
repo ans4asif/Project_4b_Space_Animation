@@ -6,7 +6,7 @@ import mercury from './images/Mercury.png';
 import rocketblue from './images/rocketblue.png';
 import astronaut from './images/Astronaut.png';
 import planets from './images/planets.png';
-import useWebAnimations ,{wobble}from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 
 function App() {
 
