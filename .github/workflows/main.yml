@@ -39,4 +39,4 @@ jobs:
       - name: install surge
         run: npm install -g surge
       - name: deploy react app on surge
-        run: surge ./build http://kindly-flesh.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build http:/kindly-flesh.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
